@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+    xmlns:atom="http://www.w3.org/2005/Atom" 
+    xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        <title>Leonids Podcast</title>
+        <link>https://wohnzimmer.fm/playground</link>
+        <description>New Podcast from Leonid Lezner</description>
+        <copyright>MIT</copyright>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+        <generator>Woowo</generator>
+        <language>de-DE</language>
+        <lastBuildDate>Tue, 03 Mar 2020 20:46:01 +0000</lastBuildDate>
+        <itunes:author>Max Mustermann</itunes:author>
+        <itunes:category text="Technology">
+            <itunes:category text="Podcasting"/>
+        </itunes:category>
+        <itunes:image href="cover.png"/>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:owner>
+            <itunes:name>John Doe</itunes:name>
+            <itunes:email>john@example.com</itunes:email>
+        </itunes:owner>
+        <itunes:subtitle>Subtitle of the podcast</itunes:subtitle>
+        <itunes:summary>Summary of the podcast</itunes:summary>
+        <itunes:type>episodic</itunes:type>
+        <item>
+            <title>The Second Episode</title>
+            <itunes:title>The Second Episode</itunes:title>
+            <description>Enjoy our second episode.</description>
+            <guid isPermaLink="false">http://lernfunk.de/media/654321/2/file.mp3</guid>
+            <enclosure url="http://lernfunk.de/media/654321/2/file.mp3" length="15" type="audio/mpeg"/>
+            <pubDate>Sun, 05 Feb 2017 13:26:58 +0100</pubDate>
+            <itunes:author>Max Mustermann 2</itunes:author>
+            <itunes:image href="episode_cover1.png"/>
+            <itunes:duration>00:01:30</itunes:duration>
+            <itunes:subtitle>Episode subtitle</itunes:subtitle>
+            <itunes:summary>Summary 2</itunes:summary>
+            <itunes:episodeType>full</itunes:episodeType>
+            <content:encoded><![CDATA[
+        <h2>Shownotes</h2>
+<p>
+<a href="https://www.patreon.com/firmenfunk" rel="payment">Firmenfunk auf Patreon unterstützen!</a>
+</p>
+        ]]>
+            </content:encoded>
+        </item>
+        <item>
+            <itunes:title>The First Episode</itunes:title>
+            <title>The First Episode</title>
+            <description>Enjoy our first episode.</description>
+            <guid isPermaLink="false">http://lernfunk.de/media/654321/1/file.mp3</guid>
+            <enclosure url="http://lernfunk.de/media/654321/1/file.mp3" length="15" type="audio/mpeg"/>
+            <pubDate>Sun, 05 Feb 2017 13:26:58 +0100</pubDate>
+            <itunes:author>Max Mustermann 1</itunes:author>
+            <itunes:image href="episode_cover1.png"/>
+            <itunes:duration>00:01:30</itunes:duration>
+            <itunes:subtitle>Episode subtitle</itunes:subtitle>
+            <itunes:summary>Summary 1</itunes:summary>
+            <itunes:episodeType>full</itunes:episodeType>
+            <content:encoded><![CDATA[
+        <h2>Shownotes</h2>
+<p>
+<a href="https://www.patreon.com/firmenfunk" rel="payment">Firmenfunk auf Patreon unterstützen!</a>
+</p>
+        ]]>
+            </content:encoded>
+        </item>
+    </channel>
+</rss>
